@@ -8,7 +8,7 @@ The unified gas-kinetic scheme (UGKS) is a numerical solver of kinetic-type (Bol
 
 Although only 1D and 2D solvers are provided here, based on the same numerical principle, its extension to 3D case is straightforward.
 
-# Pre-requirements
+# Requirement
 A Fortran compiler is need which supports Fortran90 or later versions, e.g. ifort or gfortran.
 
 # Usage

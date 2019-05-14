@@ -52,8 +52,8 @@ endif
 
 # executable and objects
 EXEC = CloudCFD
-SRCS = data.o grid.o preprocess.o kinetic.o math.o postprocess.o \
-	   initialize.o boundary.o UGKSFlux1D.o loop.o main.o
+SRCS = data.o preprocess.o kinetic.o math.o postprocess.o \
+	   initialize.o UGKSFlux1D.o loop.o main.o
 
 #--------------------------------------------------
 # compiling

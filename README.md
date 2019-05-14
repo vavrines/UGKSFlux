@@ -24,6 +24,13 @@ For 2D case, the things are quite similar.
 The parameters required stand for the conservative variables, particle distribution function and its slopes inside the cells next to a interface, their geometric features, interface flux functions, velocity quadrature points and weights, gas properties and time step.
 The detailed meanings and usage of the variables required can be found in the annotations of the source code.
 
+# Example
+Two examples for using this program are provided, i.e. numerical simulations of 1D normal shock structure and 2D lid-driven cavity. To run them, first create a working directory, and then copy the files ../examples/1D shock structure/ or ../examples/2D lid-driven cavity/ into the new directory.  
+Make the program through
+`$ Make`  
+and run the program
+`$./bin/CloudCFD$
+
 # License
 Copyright (C) 2019 Tianbai Xiao tianbaixiao@gmail.com
 

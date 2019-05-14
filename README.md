@@ -25,11 +25,13 @@ The parameters required stand for the conservative variables, particle distribut
 The detailed meanings and usage of the variables required can be found in the annotations of the source code.
 
 # Example
-Two examples for using this program are provided, i.e. numerical simulations of 1D normal shock structure and 2D lid-driven cavity. To run them, first create a working directory, and then copy the files ../examples/1D shock structure/ or ../examples/2D lid-driven cavity/ into the new directory.  
+Two examples for using this program are provided, i.e. numerical simulations of 1D normal shock structure and 2D lid-driven cavity. To run them, first create a working directory, and then copy the files ./example/1D shock structure/ or ./example/2D lid-driven cavity/ into the new directory.  
 Make the program through  
 `$ Make`  
 and run the program  
 `$./bin/CloudCFD$`
+
+The Makefile is provided for the users who have gnu make installed. If you are using some IDEs (e.g. Visual Studio), please use the compiling function provided by the IDE.
 
 # License
 Copyright (C) 2019 Tianbai Xiao tianbaixiao@gmail.com

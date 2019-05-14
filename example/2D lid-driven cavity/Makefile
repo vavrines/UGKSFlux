@@ -5,7 +5,7 @@
 #                                                                         #
 #        CFD Software Package in Scientific and Engineering Research      #
 #                                                                         #
-# 					           Developed by Tianbai Xiao (2016)                   #    
+# 	               Developed by Tianbai Xiao (2019)                   #    
 #                                                                         #
 #                         Makefile for software                           #        
 #                                                                         #
@@ -53,7 +53,7 @@ endif
 # executable and objects
 EXEC = CloudCFD
 SRCS = data.o grid.o preprocess.o kinetic.o math.o postprocess.o \
-	   initialize.o boundary.o flux.o loop.o main.o
+	   initialize.o boundary.o UGKSFlux2D.o loop.o main.o
 
 #--------------------------------------------------
 # compiling

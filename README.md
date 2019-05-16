@@ -29,7 +29,7 @@ Two examples for using this program are provided, i.e. numerical simulations of 
 Make the program through  
 `$ Make`  
 and run the program  
-`$./bin/CloudCFD$`
+`$./bin/CloudCFD`
 
 The Makefile is provided for the users who have gnu make installed. If you are using some IDEs (e.g. Visual Studio), please use the compiling function provided by the IDE.
 
